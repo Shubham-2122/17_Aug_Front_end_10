@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!-- user can input : entery data -->
+
+    <!-- html old version -->
+
+    <!-- pattern = [a-zA-Z]{3,9} -->
+
+    <form action="" align="center">
+        <div>
+            <!-- <input type="text" pattern="[a-zA-Z]+" required placeholder="Enter your Name" value=""
+                title="Name"> -->
+                  <input type="text" pattern="[a-zA-Z]{3,9}" required placeholder="Enter your Name" value=""
+                title="Name">
+        </div>
+       
+        <div>
+            <!-- shubhamjadav5@gmail.com -->
+             <input required type="email" placeholder="Enter your Email">
+        </div>
+        <div>
+             <input required type="text" pattern="[6-9][0-9]{9}" maxlength="10" placeholder="Enter your Phone">
+        </div>
+        <div>
+             <input required type="password" pattern="[A-Z][a-zA-Z0-9]{8,12}" placeholder="Enter your password">
+        </div>
+        <div>
+            <input type="submit" >
+        </div>
+    </form>
+
+</body>
+
+</html>
