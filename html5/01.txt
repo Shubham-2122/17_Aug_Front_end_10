@@ -1,0 +1,12 @@
+
+
+html 5
+01_ struct 
+02_ input new type 
+
+03_ id and class 
+04) style_and js apply 
+05_ html layout 
+06_ video and audio 
+07) canavas and svg
+
