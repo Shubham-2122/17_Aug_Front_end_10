@@ -10,3 +10,13 @@ html 5
 06_ video and audio 
 07) canavas and svg
 
+
+canavas : pixal bas ,jpg,png,
+    x and y
+
+    javascript with
+
+svg : graphic : x y z
+
+    : javascript without change 
+
