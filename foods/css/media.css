@@ -1,0 +1,22 @@
+@media only screen and (max-width:1160px) {
+    
+}
+@media only screen and (max-width:992px) {
+    
+}
+@media only screen and (max-width:768px) {
+    .header-content .header-p {
+        width: 80%;
+    }
+}
+@media only screen and (max-width:576px) {
+   .nav-ul{
+    display: none;
+   }
+   .icons .search{
+    display: none;
+}
+   .icons .bar{
+    display: block;
+}
+}
