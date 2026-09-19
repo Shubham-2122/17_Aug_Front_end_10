@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- dom : Document Object model -->
+
+    <h1 id="test"></h1>
+
+    <h2 id="demo"></h2>
+    
+    <script>
+
+        // 1) console log : 
+        console.log("Hello Javascript");
+        console.log("Hello react")
+        console.log(10+20)
+        console.log("mul :",50*20)
+
+        // 2) document .write()
+        document.write("Hello javascript")
+        document.write("<br>Hello React")
+
+
+        // 3) getelemetbyId  :  innerText : only text allow
+
+        console.log(document.getElementById("test"))
+        document.getElementById("test").innerText = "Welcome to Javascript"
+
+        // 4) : innerHTML : text and tag both allow 
+        console.log(document.getElementById("demo"))
+        document.getElementById("demo").innerHTML = "<i>Welcome to Javascript</i>"
+        
+    </script>
+
+
+
+</body>
+</html>
