@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        function : block of code when we need when use it / call it ()
+                 : reuse, code reduce 
+                 
+        2 type function 
+        1) inbuilt function : js 
+        2) user defind function : user create
+    -->
+
+    <script>
+        // 1) 
+        // console.log("sadgh")
+        // document.write("sdj")
+        // alert()
+
+
+        // 2) user create  
+        // category 2  
+
+        // 1) withour parameter 
+
+        function test(){
+            console.log("Hello test function")
+        }
+
+        test()
+        test()
+
+        let a = 20,b=10
+        function sum(){
+            let sum = a+b 
+            console.log("Sum : ",sum)
+        }
+        sum()
+        sum()
+
+        // 2) with parameter
+
+        function add(a,b){
+            console.log("Addition : ",a+b)
+        }
+
+        add(40,30)
+        add(90,57)
+
+
+        function sub(a,b){
+            return a-b
+        }
+
+        console.log("Sub : ",sub(40,20))
+
+        console.log("Subr : ",sub(90,45))
+
+    </script>
+
+</body>
+</html>
