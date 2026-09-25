@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- <input onkeypress="demo()" type="text" id="textdata"> -->
+
+    <input onkeyup="demo()" type="text" id="textdata">
+    <textarea name="" rows="10" cols="30" id="test"></textarea>
+    <button onclick="demo()">Add data</button>
+
+    <script>
+
+        let textdata = document.getElementById("textdata")
+        console.log(textdata)
+        let test = document.getElementById("test")
+
+
+        function demo(){
+            test.innerText = textdata.value
+        }
+
+    </script>
+
+</body>
+</html>
