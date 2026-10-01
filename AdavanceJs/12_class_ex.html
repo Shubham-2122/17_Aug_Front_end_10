@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <script>
+
+        class Xy{
+            // 1) with store amd with parameter 
+            x = function sum(a,b){
+                console.log("Sum : ",a+b)
+            }
+
+            // 2) with store amd without parameter 
+        
+            y = function sub(){
+                let a=30,b=15
+                console.log("Sub :",a-b)
+            }
+
+            // 3) without store amd with parameter
+            
+            Mul(a,b){
+                console.log("Mul : ",a*b)
+            }
+
+            // 4) without store amd without parameter 
+            
+            div(){
+                let a=30,b=15
+                console.log("divi :",a/b)
+            }
+
+        }
+
+        const test = new Xy;
+        console.log(test)
+
+        test.div()
+        test.Mul(30,20)
+        test.x(50,30)
+        test.y() 
+
+    </script>
+
+</body>
+</html>
