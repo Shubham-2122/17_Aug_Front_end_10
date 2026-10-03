@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let test = {
+            details : function demo(city,state){
+                console.log("Fname : ",this.fname," lname :",this.lname," city :",city, " state :",state)
+            }
+        }
+
+
+        let person = {
+            fname : "nihar",
+            lname:"patel"
+        }
+
+        
+        let person1 = {
+            fname : "roshan",
+            lname:"patel"
+        }
+
+
+        // / sparete aragument
+        test.details.call(person,"surat","Gujarat")
+
+        // apply as array
+        test.details.apply(person1,["rajkot","Gujarat"])
+
+    </script>
+</body>
+</html>

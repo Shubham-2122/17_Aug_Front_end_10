@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- promise : it's simple type of object -->
+
+    <!-- promise : Res ,rejec
+     3 state 
+     1) pending : APi hold 
+     2) fullfield : Api show 
+     3) rejected : error 
+
+    -->
+
+    <script>
+
+        let p = new Promise((res,rej)=>{
+            let x = 10
+            if(x != 10){
+                res("Success")
+            }
+            else{
+                rej("reject msg")
+            }
+        })
+
+        console.log(p)
+
+    </script>
+
+</body>
+</html>
