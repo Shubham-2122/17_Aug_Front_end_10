@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- API : application programing interface 
+    JSON : javascript syntax object noataion 
+         : ligthwight 
+         : easy read and write
+         : Rest full API 
+         
+         
+         let json = `[
+            {
+                "id":1,
+                "name":"het",
+                "age":24,
+                "course":"front-end"
+            }
+         ]`
+
+         let person = [
+            {
+                id : 1,
+                name : "het",
+                age:25,
+                "course":"front-end"
+            }
+         ]
+         -->
+
+         <script>
+
+            let jsondata = `[
+                {
+                    "id":1,
+                    "name":"het",
+                    "course":"front-end"
+                },
+                {
+                    "id":2,
+                    "name":"varj",
+                    "course":"back-end"
+                },
+                {
+                    "id":3,
+                    "name":"harshil",
+                    "course":"full-stack"
+                }
+            ]`
+
+            // console.log(jsondata)
+
+            // parse : json string into object ya array convert
+            let perosn = JSON.parse(jsondata)
+            console.log(perosn)
+
+            perosn.forEach(element => {
+                console.log(element)
+                document.write(`<h4>id : ${element.id} Name : ${element.name} course : ${element.course}</h4>`)
+            });
+
+            let users = [
+                {
+                    id:1,
+                    name:"roshan",
+                    age :23
+                },
+                {
+                    id:2,
+                    name:"ketan",
+                    age :26
+                },
+                {
+                    id:3,
+                    name:"nirav",
+                    age :21
+                }
+            ]
+
+            console.log(users)
+
+            let demo = JSON.stringify(users)
+            console.log(demo)
+
+         </script>
+
+</body>
+</html>

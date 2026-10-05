@@ -1,0 +1,29 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "jigar",
+            "course": "python"
+        },
+        {
+            "id": 2,
+            "name": "kaveni",
+            "course": "DA"
+        },
+        {
+            "id": 3,
+            "name": "shubham",
+            "course": "front-end"
+        }
+    ],
+    "admins":[
+        {
+            "id":1,
+            "name":"admin"
+        },
+        {
+            "id":2,
+            "name":"subadmin"
+        }
+    ]
+}

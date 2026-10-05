@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        fetch : javascript inbuilt funciton  / api.text read 
+        fetch : get
+                post 
+                delete 
+                put/patch : 
+    
+    -->
+
+    <script>
+        
+        fetch("demo.txt",{
+            method:"GET"
+        })
+        .then((res)=>{
+            // text to promise string convert
+            // console.log(res.text())
+            return res.text()
+        })
+        .then((test)=>{
+            console.log(test)
+            document.write(test)
+        })
+
+    </script>
+
+</body>
+</html>
