@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <script>
+
+        fetch("https://jsonplaceholder.typicode.com/users", {
+            method: "POST",
+            headers: {
+                'Content-Type': 'application/json',
+                'Accept': 'application/json'
+            },
+            body : JSON.stringify({
+                name:"varj",
+                email:"varj@gmail.com",
+                address:{
+                    city:"surat"
+                }
+            })
+        })
+        .then((res)=>{
+            return res.json()
+        })
+        .then((res)=>{
+            console.log(res)
+        })
+
+    </script>
+
+</body>
+
+</html>
