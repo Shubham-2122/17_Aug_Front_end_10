@@ -35,6 +35,27 @@
         }
         // createUser()
 
+
+        const deleteUser = async(id)=>{
+            const res = await axios.delete(`https://6ac7237875a4ce3fe721614b.mockapi.io/users/${id}`)
+            console.log(res.data)
+        }
+        // deleteUser(9)
+
+
+        let users = {
+            id : 3,
+            name:"shubham",
+            surname:"jadav",
+            city :" bharuch"
+        }
+
+        const editUser=async()=>{
+            const res = await axios.put(`https://6ac7237875a4ce3fe721614b.mockapi.io/users/${users.id}`,users)
+            console.log(res.data)
+        }
+        editUser()
+
     </script>
     
 </body>
