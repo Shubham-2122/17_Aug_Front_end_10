@@ -1,0 +1,73 @@
+React : javascript libe 
+
+React : DOM : vitrual and real
+	: COmponent base 
+	: class base and function base
+	: single page
+	: one way data
+	: refresh without page 
+
+aeg : Dom : real 
+	Class base
+	: two way data
+
+vue : Dom : real
+
+
+React Application : client side 
+
+node : javascript runtime evniroment 
+
+node -v : 
+24.25.01
+
+npm -v : 11.20.0 
+
+NPM : node package manager 
+
+react application : old version
+
+npx(extsibale) vs npm (golbal)
+
+old veriosn : 3000
+
+cmd : npx create-react-app app-name 
+cmd : cd app-name
+cmd : npm start
+
+new Version : 5173
+cmd : npm create vite@latest my-react-app
+cmd : cd my-reapp-app 
+cmd : npm run dev
+
+
+React old Struc
+
+1) Node module : npm install
+
+2) Public : index.html : assent : static images
+
+3) src : index.js -> App.js
+	: index.html -> index.js -> app.js 
+	: App.js -> index.js - > index.html
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
