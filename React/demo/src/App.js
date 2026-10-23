@@ -3,6 +3,8 @@ import React from "react";
 // import CSS from "./Css/CSS";
 // import MainProps from "./Props/MainProps";
 import ClassState from "./State/ClassState";
+import FunState from "./State/FunState";
+import FunObjec from "./State/FunObjec";
 // import ClassCompo from "./Component/ClassCompo";
 // import FunCompo from "./Component/FunCompo";
 
@@ -24,7 +26,9 @@ function App(){
             {/* <MainProps /> */}
 
             {/* State */}
-            <ClassState />
+            {/* <ClassState /> */}
+            {/* <FunState /> */}
+            <FunObjec />
             
        </div>
     )
