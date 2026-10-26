@@ -1,10 +1,12 @@
 import React from "react";
+import FormHaling from "./Formhandling/FormHaling";
+import FormObject from "./Formhandling/FormObject";
 // import Hello from "./Jsx/Hello";
 // import CSS from "./Css/CSS";
 // import MainProps from "./Props/MainProps";
-import ClassState from "./State/ClassState";
-import FunState from "./State/FunState";
-import FunObjec from "./State/FunObjec";
+// import ClassState from "./State/ClassState";
+// import FunState from "./State/FunState";
+// import FunObjec from "./State/FunObjec";
 // import ClassCompo from "./Component/ClassCompo";
 // import FunCompo from "./Component/FunCompo";
 
@@ -28,7 +30,12 @@ function App(){
             {/* State */}
             {/* <ClassState /> */}
             {/* <FunState /> */}
-            <FunObjec />
+            {/* <FunObjec /> */}
+
+            {/* <FormHaling /> */}
+            <FormObject />
+
+
             
        </div>
     )
