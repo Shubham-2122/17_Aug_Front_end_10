@@ -1,6 +1,11 @@
 import React from "react";
-import FormHaling from "./Formhandling/FormHaling";
-import FormObject from "./Formhandling/FormObject";
+import MainContext from "./Context/MainContext";
+// import FormHaling from "./Formhandling/FormHaling";
+// import FormObject from "./Formhandling/FormObject";
+// import Effectdata from "./Effect/Effectdata";
+// import UserData from "./Effect/UserData";
+// import UserTest from "./Effect/UserTest";
+// import ProductCard from "./Effect/ProductCard";
 // import Hello from "./Jsx/Hello";
 // import CSS from "./Css/CSS";
 // import MainProps from "./Props/MainProps";
@@ -33,7 +38,15 @@ function App(){
             {/* <FunObjec /> */}
 
             {/* <FormHaling /> */}
-            <FormObject />
+            {/* <FormObject /> */}
+
+            {/* <Effectdata /> */}
+            {/* <UserData /> */}
+
+            {/* <UserTest /> */}
+            {/* <ProductCard /> */}
+
+            <MainContext />
 
 
             
