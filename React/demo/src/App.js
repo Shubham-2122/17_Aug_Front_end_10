@@ -1,5 +1,10 @@
 import React from "react";
 import MainContext from "./Context/MainContext";
+import LifeCycle from "./Lifecycle/LifeCycle";
+import Bootstrap from "./Boostrapdata/Bootstrap";
+import CardReact from "./Boostrapdata/CardReact";
+import Footer from "./Boostrapdata/Footer";
+import Login from "./Boostrapdata/Login";
 // import FormHaling from "./Formhandling/FormHaling";
 // import FormObject from "./Formhandling/FormObject";
 // import Effectdata from "./Effect/Effectdata";
@@ -46,7 +51,14 @@ function App(){
             {/* <UserTest /> */}
             {/* <ProductCard /> */}
 
-            <MainContext />
+            {/* <MainContext /> */}
+
+            {/* <LifeCycle /> */}
+
+            {/* <Bootstrap /> */}
+            <CardReact />
+            <Login />
+            <Footer />
 
 
             
