@@ -2,6 +2,8 @@ import React from 'react'
 import FonstData from './compon/FonstData'
 import Color from './compon/Color'
 import Space from './compon/Space'
+import Demo from './compon/Demo'
+import FlexData from './compon/FlexData'
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
 
       {/* <FonstData /> */}
       {/* <Color /> */}
-      <Space />
+      {/* <Space /> */}
+      {/* <Demo /> */}
+      <FlexData />
     </div>
   )
 }
