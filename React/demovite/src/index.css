@@ -1,1 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos&family=Creepster&display=swap');
 @import "tailwindcss";
+
+
+/* only direct tag apply */
+@layer base {
+    h1 {
+        font-size: 50px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    h3 {
+        font-size: 30px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+}
+
+
+@layer components {
+    .card {
+        height: 300px;
+        width: 200px;
+        border: 2px solid;
+    }
+
+    .card:hover {
+        background-color: lightcoral;
+    }
+
+    .btn {
+        padding: 10px 20px;
+        background: linear-gradient(red, green);
+    }
+
+    .btn:hover {
+        background: lightgreen;
+    }
+}
+
+
+@layer utilities {
+    .fonts {
+        font-family: "Betania Patmos", cursive;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .font2 {
+        font-family: "Creepster", system-ui;
+        font-weight: 400;
+        font-style: normal;
+    }
+}

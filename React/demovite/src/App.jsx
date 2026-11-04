@@ -4,6 +4,8 @@ import Color from './compon/Color'
 import Space from './compon/Space'
 import Demo from './compon/Demo'
 import FlexData from './compon/FlexData'
+import Test from './compon/Test'
+import Customdata from './compon/Customdata'
 
 function App() {
   return (
@@ -14,7 +16,9 @@ function App() {
       {/* <Color /> */}
       {/* <Space /> */}
       {/* <Demo /> */}
-      <FlexData />
+      {/* <FlexData /> */}
+      {/* <Test /> */}
+      <Customdata />
     </div>
   )
 }
