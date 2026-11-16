@@ -1,10 +1,14 @@
 import React from "react";
-import MainContext from "./Context/MainContext";
-import LifeCycle from "./Lifecycle/LifeCycle";
-import Bootstrap from "./Boostrapdata/Bootstrap";
-import CardReact from "./Boostrapdata/CardReact";
-import Footer from "./Boostrapdata/Footer";
-import Login from "./Boostrapdata/Login";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import Home from "./Layout/Pages/Home";
+import About from "./Layout/Pages/About";
+import Contact from "./Layout/Pages/Contact";
+// import MainContext from "./Context/MainContext";
+// import LifeCycle from "./Lifecycle/LifeCycle";
+// import Bootstrap from "./Boostrapdata/Bootstrap";
+// import CardReact from "./Boostrapdata/CardReact";
+// import Footer from "./Boostrapdata/Footer";
+// import Login from "./Boostrapdata/Login";
 // import FormHaling from "./Formhandling/FormHaling";
 // import FormObject from "./Formhandling/FormObject";
 // import Effectdata from "./Effect/Effectdata";
@@ -22,8 +26,8 @@ import Login from "./Boostrapdata/Login";
 
 function App(){
     return(
-       <div>
-         <h1>Hello Application</h1>
+       <BrowserRouter>
+         {/* <h1>Hello Application</h1> */}
             
             {/* Compeoent */}
             {/* <ClassCompo /> */}
@@ -56,13 +60,18 @@ function App(){
             {/* <LifeCycle /> */}
 
             {/* <Bootstrap /> */}
-            <CardReact />
+            {/* <CardReact />
             <Login />
-            <Footer />
+            <Footer /> */}
 
+               <Routes>
+                  <Route path="/" element={<Home />} />
+                  <Route  path="/about" element={<About />} />
+                  <Route  path="/contact" element={<Contact />} />
+               </Routes>
 
             
-       </div>
+       </BrowserRouter>
     )
 }
 
