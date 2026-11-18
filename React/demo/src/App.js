@@ -6,6 +6,9 @@ import Contact from "./Layout/Pages/Contact";
 import About1 from "./Layout/Pages/About1";
 import About2 from "./Layout/Pages/About2";
 import NotFound from "./Layout/Pages/NotFound";
+import RefData from "./Hooks/RefData";
+import ReduData from "./Hooks/ReduData";
+import TestData from "./Hooks/TestData";
 // import MainContext from "./Context/MainContext";
 // import LifeCycle from "./Lifecycle/LifeCycle";
 // import Bootstrap from "./Boostrapdata/Bootstrap";
@@ -74,6 +77,9 @@ function App(){
                         <Route path="about2" element={<About2 />} />
                   </Route>
                   <Route  path="/contact" element={<Contact />} />
+                   <Route  path="/ref" element={<RefData />} />
+                    <Route  path="/reddata" element={<ReduData />} />
+                    <Route  path="/cut" element={<TestData />} />
 
                   <Route path="*" element={<NotFound />} />
 
