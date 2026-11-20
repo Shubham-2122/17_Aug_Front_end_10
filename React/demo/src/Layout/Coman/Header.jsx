@@ -30,6 +30,9 @@ function Header() {
                             <li className="nav-item">
                                 <NavLink className="nav-link" to="/cut" >Custom</NavLink>
                             </li>
+                             <li className="nav-item">
+                                <NavLink className="nav-link" to="/user" >Custom api</NavLink>
+                            </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Dropdown

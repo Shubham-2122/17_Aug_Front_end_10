@@ -9,6 +9,7 @@ import NotFound from "./Layout/Pages/NotFound";
 import RefData from "./Hooks/RefData";
 import ReduData from "./Hooks/ReduData";
 import TestData from "./Hooks/TestData";
+import UserDemo from "./Hooks/UserDemo";
 // import MainContext from "./Context/MainContext";
 // import LifeCycle from "./Lifecycle/LifeCycle";
 // import Bootstrap from "./Boostrapdata/Bootstrap";
@@ -80,6 +81,7 @@ function App(){
                    <Route  path="/ref" element={<RefData />} />
                     <Route  path="/reddata" element={<ReduData />} />
                     <Route  path="/cut" element={<TestData />} />
+                       <Route  path="/user" element={<UserDemo />} />
 
                   <Route path="*" element={<NotFound />} />
 
