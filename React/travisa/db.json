@@ -1,0 +1,59 @@
+{
+    "admin":[
+        {
+            "id":1,
+            "name":"admin",
+            "email":"admin@gmail.com",
+            "password":"1234"
+        },
+        {
+            "id":2,
+            "name":"Subadmin",
+            "email":"subadmin@gmail.com",
+            "password":"123456"
+        }
+    ],
+    "users":[
+        {
+            "id":1,
+            "name":"jay",
+            "email":"jay@gmail.com",
+            "password":"1234",
+            "status":"unblock"
+        },
+        {
+            "id":2,
+            "name":"ketan",
+            "email":"ketan@gmail.com",
+            "password":"123456",
+            "status":"block"
+        },
+        {
+            "id":3,
+            "name":"nirav",
+            "email":"nirav@gmail.com",
+            "password":"4321",
+            "status":"unblock"
+        }
+    ],
+    "services":[
+        {
+            "id":1,
+            "name":"Business Visa",
+            "desc":"Hello Business Visa Apply for surat",
+            "img":"https://th.bing.com/th/id/OIP.Ozw9qqYbBTQVjcoxCDDUDAHaHa?w=158&h=180&c=7&r=0&o=7&dpr=1.5&pid=1.7&rm=3"
+        },
+         {
+            "id":2,
+            "name":"Student Visa",
+            "desc":"Hello Business Visa Apply for Rajkot",
+            "img":"https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/phonixImages/Increase-Visa-Approval-Chances-Landing.jpg"
+        },
+        {
+            "id":3,
+            "name":"Job Visa",
+            "desc":"Hello Business Visa Apply for Goa",
+            "img":"https://hldak.mmtcdn.com/prod-s3-hld-hpcmsadmin/holidays/images/phonixImages/Nainital-%20A.jpg?crop=134:207&downsize=134:207"
+        }
+    ]
+}

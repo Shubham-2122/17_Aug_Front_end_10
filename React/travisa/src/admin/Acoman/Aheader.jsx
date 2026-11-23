@@ -18,9 +18,9 @@ function Aheader() {
                         </button>
                         <div className="collapse navbar-collapse" id="navbarCollapse">
                             <div className="navbar-nav ms-auto py-0">
-                                <NavLink to="/" className="nav-item nav-link ">Home</NavLink>
-                                <NavLink to="/about" className="nav-item nav-link">About</NavLink>
-                                <NavLink to="/service" className="nav-item nav-link">Service</NavLink>
+                                {/* <NavLink to="/" className="nav-item nav-link ">Home</NavLink>
+                                <NavLink to="/about" className="nav-item nav-link">About</NavLink> */}
+                                <NavLink to="/servicemange" className="nav-item nav-link">Service</NavLink>
                                 <div className="nav-item dropdown">
                                     <a href="#" className="nav-link" data-bs-toggle="dropdown"><span className="dropdown-toggle">Pages</span></a>
                                     <div className="dropdown-menu m-0">
