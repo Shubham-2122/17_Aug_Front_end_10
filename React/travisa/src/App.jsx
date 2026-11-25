@@ -11,6 +11,7 @@ import Contact from './wesbite/Pages/Contact'
 import NotFound from './wesbite/Pages/NotFound'
 import Dashbord from './admin/Apages/Dashbord'
 import ServicesManage from './admin/Apages/ServicesManage'
+import ServicesAdd from './admin/Apages/ServicesAdd'
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           {/* Admin route */}
           <Route path='/dash' element={<Dashbord />} />
           <Route path='/servicemange' element={<ServicesManage />} />
+            <Route path='/serviceadd' element={<ServicesAdd />} />
 
         </Routes>
     </BrowserRouter>

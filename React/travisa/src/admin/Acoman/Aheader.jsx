@@ -9,10 +9,10 @@ function Aheader() {
                 {/* Navbar & Hero Start */}
                 <div className="container-fluid nav-bar p-0">
                     <nav className="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
-                        <a href className="navbar-brand p-0">
+                        <NavLink to="/dash" className="navbar-brand p-0">
                             <h1 className="display-5 text-secondary m-0">Dashbaord</h1>
                             {/* <img src="img/logo.png" alt="Logo"> */}
-                        </a>
+                        </NavLink>
                         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                             <span className="fa fa-bars" />
                         </button>
@@ -20,7 +20,16 @@ function Aheader() {
                             <div className="navbar-nav ms-auto py-0">
                                 {/* <NavLink to="/" className="nav-item nav-link ">Home</NavLink>
                                 <NavLink to="/about" className="nav-item nav-link">About</NavLink> */}
-                                <NavLink to="/servicemange" className="nav-item nav-link">Service</NavLink>
+                               
+                                 <div className="nav-item dropdown">
+                                    <a href="#" className="nav-link" data-bs-toggle="dropdown"><span className="dropdown-toggle">Service</span></a>
+                                    <div className="dropdown-menu m-0">
+                                        <NavLink to="/servicemange" className="dropdown-item">Manage</NavLink>
+                                        <NavLink to="/serviceadd" className="dropdown-item">Addform</NavLink>
+                                     
+                                      
+                                    </div>
+                                </div>
                                 <div className="nav-item dropdown">
                                     <a href="#" className="nav-link" data-bs-toggle="dropdown"><span className="dropdown-toggle">Pages</span></a>
                                     <div className="dropdown-menu m-0">
